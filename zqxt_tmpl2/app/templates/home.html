@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>模板进阶练习</title>
+</head>
+<body>
+    <div>
+        <h2>实例一 显示一段文本</h2>
+        {{ string }}
+    </div>
+    <div>
+        <h2>实例二 for循环遍历列表</h2>
+        Django 全栈工程师技能列表：
+        {% for i in TutorialList %}
+        {{i}}
+        {% endfor %}
+    </div>
+    <div>
+        <h2>实例三 字典内容的调用</h2>
+        学习项目：{{ info_dict.object }} <br>
+        项目说明：{{ info_dict.info }} <br>
+        另一种字典遍历方法：
+        <dir style="margin-left:20px">
+        {% for key, value in info_dict.items %}
+        {{key}} 
+        {{value}}
+        {% endfor %}
+        </dir>
+    </div>
+    <div>
+        <h2>实例四 运行判断语句</h2>
+        {% for item in List %}
+            {{ item }} {% if not forloop.last %},{% endif %}
+        {% endfor %}
+    </div>
+    <div>
+        <h2>实例五 模板中显示对应视图的网址</h2>
+        {% url 'add' 4 5 %}
+    </div>
+    <div><h2>实例六 跳过了讲的是 可以用逻辑运算符</h2></div>
+    <div>
+        <h2>实例七 在模板中获得用户名、网址</h2>
+        获取当前用户名 {{ request.user }} <br>
+        判断是否登录:<br>
+        {% if request.user.is_authenticated %}
+            {{ request.suer.username }}，你好！
+        {% else %}
+            您好，请先登录
+        {% endif %}
+        <br>
+        获取当前网址： {{request.path}} <br>
+        获取当前 GET 参数： {{ request.GET.urlencode }} <br>
+        复合例子： <a href="{{ request.path }}?{{ request.GET.urlencode }}&delete=1">当前网址和参数 delete</a>
+    </div>
+</body>
+</html>
