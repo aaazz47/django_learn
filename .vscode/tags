@@ -5,15 +5,19 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 0001_initial.py	../learn_models/people/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../official_tutorial/polls/migrations/0001_initial.py	1;"	kind:file	line:1
 0001_initial.py	../zqxt_admin/blog/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20171115_1108.py	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	1;"	kind:file	line:1
 0002_person.py	../zqxt_admin/blog/migrations/0002_person.py	1;"	kind:file	line:1
 ALLOWED_HOSTS	../learn_models/learn_models/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+ALLOWED_HOSTS	../official_tutorial/official_tutorial/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 ALLOWED_HOSTS	../zqxt_admin/zqxt_admin/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 ALLOWED_HOSTS	../zqxt_form2/zqxt_form2/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 ALLOWED_HOSTS	../zqxt_tmpl/zqxt_tmpl/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 ALLOWED_HOSTS	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 ALLOWED_HOSTS	../zqxt_views/zqxt_views/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 AUTH_PASSWORD_VALIDATORS	../learn_models/learn_models/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
+AUTH_PASSWORD_VALIDATORS	../official_tutorial/official_tutorial/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
 AUTH_PASSWORD_VALIDATORS	../zqxt_admin/zqxt_admin/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
 AUTH_PASSWORD_VALIDATORS	../zqxt_form2/zqxt_form2/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
 AUTH_PASSWORD_VALIDATORS	../zqxt_tmpl/zqxt_tmpl/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
@@ -22,6 +26,7 @@ AUTH_PASSWORD_VALIDATORS	../zqxt_views/zqxt_views/settings.py	/^AUTH_PASSWORD_VA
 AddForm	../zqxt_form2/tools/forms.py	/^class AddForm(forms.Form):$/;"	kind:class	line:3
 AddForm	../zqxt_form2/tools/views.py	/^from .forms import AddForm$/;"	kind:namespace	line:6
 AppConfig	../learn_models/people/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../official_tutorial/polls/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
 AppConfig	../zqxt_admin/blog/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
 AppConfig	../zqxt_form2/tools/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
 AppConfig	../zqxt_tmpl/learn/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
@@ -32,6 +37,7 @@ Article	../zqxt_admin/blog/admin.py	/^from .models import Article, Person$/;"	ki
 Article	../zqxt_admin/blog/models.py	/^class Article(models.Model):$/;"	kind:class	line:4
 ArticleAdmin	../zqxt_admin/blog/admin.py	/^class ArticleAdmin(admin.ModelAdmin):$/;"	kind:class	line:7
 BASE_DIR	../learn_models/learn_models/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BASE_DIR	../official_tutorial/official_tutorial/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
 BASE_DIR	../zqxt_admin/zqxt_admin/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
 BASE_DIR	../zqxt_form2/zqxt_form2/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
 BASE_DIR	../zqxt_tmpl/zqxt_tmpl/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
@@ -40,28 +46,39 @@ BASE_DIR	../zqxt_views/zqxt_views/settings.py	/^BASE_DIR = os.path.dirname(os.pa
 BeautifulSoup	../爬虫练习.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:11
 BlogConfig	../zqxt_admin/blog/apps.py	/^class BlogConfig(AppConfig):$/;"	kind:class	line:4
 CalcConfig	../zqxt_views/calc/apps.py	/^class CalcConfig(AppConfig):$/;"	kind:class	line:4
+Choice	../official_tutorial/polls/admin.py	/^from .models import Question, Choice$/;"	kind:namespace	line:4
+Choice	../official_tutorial/polls/models.py	/^class Choice(models.Model):$/;"	kind:class	line:26
+Choice	../official_tutorial/polls/views.py	/^from .models import Question, Choice$/;"	kind:namespace	line:9
+ChoiceInline	../official_tutorial/polls/admin.py	/^class ChoiceInline(admin.TabularInline):$/;"	kind:class	line:7
 DATABASES	../learn_models/learn_models/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DATABASES	../official_tutorial/official_tutorial/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
 DATABASES	../zqxt_admin/zqxt_admin/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
 DATABASES	../zqxt_form2/zqxt_form2/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
 DATABASES	../zqxt_tmpl/zqxt_tmpl/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
 DATABASES	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
 DATABASES	../zqxt_views/zqxt_views/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
 DEBUG	../learn_models/learn_models/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DEBUG	../official_tutorial/official_tutorial/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 DEBUG	../zqxt_admin/zqxt_admin/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 DEBUG	../zqxt_form2/zqxt_form2/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 DEBUG	../zqxt_tmpl/zqxt_tmpl/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 DEBUG	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 DEBUG	../zqxt_views/zqxt_views/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DetailView	../official_tutorial/polls/views.py	/^class DetailView(generic.DetailView):$/;"	kind:class	line:22
 HttpResponse	../zqxt_form2/tools/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:4
 HttpResponse	../zqxt_tmpl2/app/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:4
 HttpResponse	../zqxt_views/calc/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:4
+HttpResponseRedirect	../official_tutorial/polls/views.py	/^from django.http import HttpResponseRedirect$/;"	kind:namespace	line:4
 INSTALLED_APPS	../learn_models/learn_models/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+INSTALLED_APPS	../official_tutorial/official_tutorial/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 INSTALLED_APPS	../zqxt_admin/zqxt_admin/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 INSTALLED_APPS	../zqxt_form2/zqxt_form2/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 INSTALLED_APPS	../zqxt_tmpl/zqxt_tmpl/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 INSTALLED_APPS	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 INSTALLED_APPS	../zqxt_views/zqxt_views/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+IndexView	../official_tutorial/polls/views.py	/^class IndexView(generic.ListView):$/;"	kind:class	line:13
 LANGUAGE_CODE	../learn_models/learn_models/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
+LANGUAGE_CODE	../official_tutorial/official_tutorial/settings.py	/^LANGUAGE_CODE = 'zh-Hans'$/;"	kind:variable	line:107
 LANGUAGE_CODE	../zqxt_admin/zqxt_admin/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
 LANGUAGE_CODE	../zqxt_form2/zqxt_form2/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
 LANGUAGE_CODE	../zqxt_tmpl/zqxt_tmpl/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
@@ -69,12 +86,16 @@ LANGUAGE_CODE	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"
 LANGUAGE_CODE	../zqxt_views/zqxt_views/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
 LearnConfig	../zqxt_tmpl/learn/apps.py	/^class LearnConfig(AppConfig):$/;"	kind:class	line:4
 MIDDLEWARE	../learn_models/learn_models/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+MIDDLEWARE	../official_tutorial/official_tutorial/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
 MIDDLEWARE	../zqxt_admin/zqxt_admin/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
 MIDDLEWARE	../zqxt_form2/zqxt_form2/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
 MIDDLEWARE	../zqxt_tmpl/zqxt_tmpl/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
 MIDDLEWARE	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
 MIDDLEWARE	../zqxt_views/zqxt_views/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+Meta	../official_tutorial/polls/models.py	/^    class Meta:$/;"	kind:class	line:22
 Migration	../learn_models/people/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../official_tutorial/polls/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 Migration	../zqxt_admin/blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 Migration	../zqxt_admin/blog/migrations/0002_person.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 PeopleConfig	../learn_models/people/apps.py	/^class PeopleConfig(AppConfig):$/;"	kind:class	line:4
@@ -82,35 +103,51 @@ Person	../learn_models/people/models.py	/^class Person(models.Model):$/;"	kind:c
 Person	../zqxt_admin/blog/admin.py	/^from .models import Article, Person$/;"	kind:namespace	line:4
 Person	../zqxt_admin/blog/models.py	/^class Person(models.Model):$/;"	kind:class	line:15
 PersonAdmin	../zqxt_admin/blog/admin.py	/^class PersonAdmin(admin.ModelAdmin):$/;"	kind:class	line:16
+PollsConfig	../official_tutorial/polls/apps.py	/^class PollsConfig(AppConfig):$/;"	kind:class	line:4
+Question	../official_tutorial/polls/admin.py	/^from .models import Question, Choice$/;"	kind:namespace	line:4
+Question	../official_tutorial/polls/models.py	/^class Question(models.Model):$/;"	kind:class	line:8
+Question	../official_tutorial/polls/tests.py	/^from .models import Question$/;"	kind:namespace	line:9
+Question	../official_tutorial/polls/views.py	/^from .models import Question, Choice$/;"	kind:namespace	line:9
+QuestionAdmin	../official_tutorial/polls/admin.py	/^class QuestionAdmin(admin.ModelAdmin):$/;"	kind:class	line:11
+QuestionDetailViewTest	../official_tutorial/polls/tests.py	/^class QuestionDetailViewTest(TestCase):$/;"	kind:class	line:86
+QuestionIndexViewTests	../official_tutorial/polls/tests.py	/^class QuestionIndexViewTests(TestCase):$/;"	kind:class	line:31
+QuestionModelsTests	../official_tutorial/polls/tests.py	/^class QuestionModelsTests(TestCase):$/;"	kind:class	line:12
 ROOT_URLCONF	../learn_models/learn_models/settings.py	/^ROOT_URLCONF = 'learn_models.urls'$/;"	kind:variable	line:54
+ROOT_URLCONF	../official_tutorial/official_tutorial/settings.py	/^ROOT_URLCONF = 'official_tutorial.urls'$/;"	kind:variable	line:53
 ROOT_URLCONF	../zqxt_admin/zqxt_admin/settings.py	/^ROOT_URLCONF = 'zqxt_admin.urls'$/;"	kind:variable	line:53
 ROOT_URLCONF	../zqxt_form2/zqxt_form2/settings.py	/^ROOT_URLCONF = 'zqxt_form2.urls'$/;"	kind:variable	line:53
 ROOT_URLCONF	../zqxt_tmpl/zqxt_tmpl/settings.py	/^ROOT_URLCONF = 'zqxt_tmpl.urls'$/;"	kind:variable	line:54
 ROOT_URLCONF	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^ROOT_URLCONF = 'zqxt_tmpl2.urls'$/;"	kind:variable	line:54
 ROOT_URLCONF	../zqxt_views/zqxt_views/settings.py	/^ROOT_URLCONF = 'zqxt_views.urls'$/;"	kind:variable	line:54
+ResultsView	../official_tutorial/polls/views.py	/^class ResultsView(generic.DetailView):$/;"	kind:class	line:32
+SECRET_KEY	../official_tutorial/official_tutorial/settings.py	/^SECRET_KEY = '#s2komnt377ygs1drju@npyp(t6%t%e+i_+z)13(ejj%o%=&zt'$/;"	kind:variable	line:23
 SECRET_KEY	../zqxt_admin/zqxt_admin/settings.py	/^SECRET_KEY = 'dq%uur(!6af7uzetw@-ydd=6bz_hzj6a!s@+axk_cp7jn3k_@@'$/;"	kind:variable	line:23
 SECRET_KEY	../zqxt_form2/zqxt_form2/settings.py	/^SECRET_KEY = '!5yj5i(cl0w3i&b*hi^4%lmm)*aev#2f_5+oj=#+qw7nijiath'$/;"	kind:variable	line:23
 SECRET_KEY	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^SECRET_KEY = 't7&09t4#j^0ea3b&+0r^2i_(xx$g^tye85ta@3y*i2sl^^c7qd'$/;"	kind:variable	line:23
 SECRET_KEY	../zqxt_views/zqxt_views/settings.py	/^SECRET_KEY = 'c(4+4i%8&m5g+3z5v(%loaadnd_&12mlwwowfa+^8n)lc%jqr*'$/;"	kind:variable	line:23
 STATIC_URL	../learn_models/learn_models/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+STATIC_URL	../official_tutorial/official_tutorial/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
 STATIC_URL	../zqxt_admin/zqxt_admin/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
 STATIC_URL	../zqxt_form2/zqxt_form2/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
 STATIC_URL	../zqxt_tmpl/zqxt_tmpl/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
 STATIC_URL	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
 STATIC_URL	../zqxt_views/zqxt_views/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
 TEMPLATES	../learn_models/learn_models/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TEMPLATES	../official_tutorial/official_tutorial/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
 TEMPLATES	../zqxt_admin/zqxt_admin/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
 TEMPLATES	../zqxt_form2/zqxt_form2/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
 TEMPLATES	../zqxt_tmpl/zqxt_tmpl/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
 TEMPLATES	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
 TEMPLATES	../zqxt_views/zqxt_views/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
 TIME_ZONE	../learn_models/learn_models/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
+TIME_ZONE	../official_tutorial/official_tutorial/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
 TIME_ZONE	../zqxt_admin/zqxt_admin/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
 TIME_ZONE	../zqxt_form2/zqxt_form2/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
 TIME_ZONE	../zqxt_tmpl/zqxt_tmpl/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
 TIME_ZONE	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
 TIME_ZONE	../zqxt_views/zqxt_views/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
 TestCase	../learn_models/people/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TestCase	../official_tutorial/polls/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
 TestCase	../zqxt_admin/blog/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
 TestCase	../zqxt_form2/tools/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
 TestCase	../zqxt_tmpl/learn/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
@@ -118,24 +155,28 @@ TestCase	../zqxt_tmpl2/app/tests.py	/^from django.test import TestCase$/;"	kind:
 TestCase	../zqxt_views/calc/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
 ToolsConfig	../zqxt_form2/tools/apps.py	/^class ToolsConfig(AppConfig):$/;"	kind:class	line:4
 USE_I18N	../learn_models/learn_models/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_I18N	../official_tutorial/official_tutorial/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
 USE_I18N	../zqxt_admin/zqxt_admin/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
 USE_I18N	../zqxt_form2/zqxt_form2/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
 USE_I18N	../zqxt_tmpl/zqxt_tmpl/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
 USE_I18N	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
 USE_I18N	../zqxt_views/zqxt_views/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
 USE_L10N	../learn_models/learn_models/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_L10N	../official_tutorial/official_tutorial/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
 USE_L10N	../zqxt_admin/zqxt_admin/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
 USE_L10N	../zqxt_form2/zqxt_form2/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
 USE_L10N	../zqxt_tmpl/zqxt_tmpl/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
 USE_L10N	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
 USE_L10N	../zqxt_views/zqxt_views/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
 USE_TZ	../learn_models/learn_models/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+USE_TZ	../official_tutorial/official_tutorial/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
 USE_TZ	../zqxt_admin/zqxt_admin/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
 USE_TZ	../zqxt_form2/zqxt_form2/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
 USE_TZ	../zqxt_tmpl/zqxt_tmpl/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
 USE_TZ	../zqxt_tmpl2/zqxt_tmpl2/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
 USE_TZ	../zqxt_views/zqxt_views/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
 WSGI_APPLICATION	../learn_models/learn_models/settings.py	/^WSGI_APPLICATION = 'learn_models.wsgi.application'$/;"	kind:variable	line:72
+WSGI_APPLICATION	../official_tutorial/official_tutorial/settings.py	/^WSGI_APPLICATION = 'official_tutorial.wsgi.application'$/;"	kind:variable	line:71
 WSGI_APPLICATION	../zqxt_admin/zqxt_admin/settings.py	/^WSGI_APPLICATION = 'zqxt_admin.wsgi.application'$/;"	kind:variable	line:71
 WSGI_APPLICATION	../zqxt_form2/zqxt_form2/settings.py	/^WSGI_APPLICATION = 'zqxt_form2.wsgi.application'$/;"	kind:variable	line:71
 WSGI_APPLICATION	../zqxt_tmpl/zqxt_tmpl/settings.py	/^WSGI_APPLICATION = 'zqxt_tmpl.wsgi.application'$/;"	kind:variable	line:72
@@ -144,6 +185,9 @@ WSGI_APPLICATION	../zqxt_views/zqxt_views/settings.py	/^WSGI_APPLICATION = 'zqxt
 __init__.py	../learn_models/learn_models/__init__.py	1;"	kind:file	line:1
 __init__.py	../learn_models/people/__init__.py	1;"	kind:file	line:1
 __init__.py	../learn_models/people/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../official_tutorial/official_tutorial/__init__.py	1;"	kind:file	line:1
+__init__.py	../official_tutorial/polls/__init__.py	1;"	kind:file	line:1
+__init__.py	../official_tutorial/polls/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../zqxt_admin/blog/__init__.py	1;"	kind:file	line:1
 __init__.py	../zqxt_admin/blog/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../zqxt_admin/zqxt_admin/__init__.py	1;"	kind:file	line:1
@@ -160,6 +204,8 @@ __init__.py	../zqxt_views/calc/__init__.py	1;"	kind:file	line:1
 __init__.py	../zqxt_views/calc/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../zqxt_views/zqxt_views/__init__.py	1;"	kind:file	line:1
 __str__	../learn_models/people/models.py	/^    def __str__(self):$/;"	kind:member	line:8
+__str__	../official_tutorial/polls/models.py	/^    def __str__(self):$/;"	kind:member	line:12
+__str__	../official_tutorial/polls/models.py	/^    def __str__(self):$/;"	kind:member	line:31
 __str__	../zqxt_admin/blog/models.py	/^    def __str__(self):$/;"	kind:member	line:11
 a	../zqxt_form2/tools/forms.py	/^    a = forms.IntegerField()$/;"	kind:variable	line:4
 add	../zqxt_tmpl2/app/views.py	/^def add(request, a=1, b=1):$/;"	kind:function	line:17
@@ -167,6 +213,8 @@ add	../zqxt_views/calc/views.py	/^def add(request):$/;"	kind:function	line:10
 add2	../zqxt_views/calc/views.py	/^def add2(request,a=1,b=1):$/;"	kind:function	line:16
 admin	../learn_models/learn_models/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
 admin	../learn_models/people/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../official_tutorial/official_tutorial/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin	../official_tutorial/polls/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
 admin	../zqxt_admin/blog/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
 admin	../zqxt_admin/zqxt_admin/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
 admin	../zqxt_form2/tools/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
@@ -178,20 +226,24 @@ admin	../zqxt_tmpl2/zqxt_tmpl2/urls.py	/^from django.contrib import admin$/;"	ki
 admin	../zqxt_views/calc/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
 admin	../zqxt_views/zqxt_views/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
 admin.py	../learn_models/people/admin.py	1;"	kind:file	line:1
+admin.py	../official_tutorial/polls/admin.py	1;"	kind:file	line:1
 admin.py	../zqxt_admin/blog/admin.py	1;"	kind:file	line:1
 admin.py	../zqxt_form2/tools/admin.py	1;"	kind:file	line:1
 admin.py	../zqxt_tmpl/learn/admin.py	1;"	kind:file	line:1
 admin.py	../zqxt_tmpl2/app/admin.py	1;"	kind:file	line:1
 admin.py	../zqxt_views/calc/admin.py	1;"	kind:file	line:1
 age	../learn_models/people/models.py	/^    age = models.IntegerField()$/;"	kind:variable	line:6
+app_name	../official_tutorial/polls/urls.py	/^app_name = 'polls'$/;"	kind:variable	line:5
 app_views	../zqxt_tmpl2/zqxt_tmpl2/urls.py	/^from app import views as app_views$/;"	kind:namespace	line:18
 application	../learn_models/learn_models/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+application	../official_tutorial/official_tutorial/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 application	../zqxt_admin/zqxt_admin/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 application	../zqxt_form2/zqxt_form2/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 application	../zqxt_tmpl/zqxt_tmpl/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 application	../zqxt_tmpl2/zqxt_tmpl2/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 application	../zqxt_views/zqxt_views/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 apps.py	../learn_models/people/apps.py	1;"	kind:file	line:1
+apps.py	../official_tutorial/polls/apps.py	1;"	kind:file	line:1
 apps.py	../zqxt_admin/blog/apps.py	1;"	kind:file	line:1
 apps.py	../zqxt_form2/tools/apps.py	1;"	kind:file	line:1
 apps.py	../zqxt_tmpl/learn/apps.py	1;"	kind:file	line:1
@@ -200,34 +252,57 @@ apps.py	../zqxt_views/calc/apps.py	1;"	kind:file	line:1
 b	../zqxt_form2/tools/forms.py	/^    b = forms.IntegerField()$/;"	kind:variable	line:5
 baseurl	../爬虫练习.py	/^baseurl = 'http:\/\/www.597club.com'    #抓取入口$/;"	kind:variable	line:18
 calc_views	../zqxt_views/zqxt_views/urls.py	/^from calc import views as calc_views$/;"	kind:namespace	line:19
+choice_text	../official_tutorial/polls/models.py	/^    choice_text = models.CharField(max_length=200)$/;"	kind:variable	line:28
 cnt	../爬虫练习.py	/^cnt = 1$/;"	kind:variable	line:22
 content	../zqxt_admin/blog/models.py	/^    content = models.TextField('内容')$/;"	kind:variable	line:6
+context_object_name	../official_tutorial/polls/views.py	/^    context_object_name = 'latest_question_list'$/;"	kind:variable	line:15
+create_question	../official_tutorial/polls/tests.py	/^def create_question(question_text, days):$/;"	kind:function	line:23
 data	../爬虫练习.py	/^    data = BeautifulSoup(rq.text, 'lxml')$/;"	kind:variable	line:33
+datetime	../official_tutorial/polls/models.py	/^import datetime$/;"	kind:namespace	line:4
+datetime	../official_tutorial/polls/tests.py	/^import datetime$/;"	kind:namespace	line:4
+db	../official_tutorial/polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+deletion	../official_tutorial/polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
 dependencies	../learn_models/people/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	../official_tutorial/polls/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^    dependencies = [$/;"	kind:variable	line:10
 dependencies	../zqxt_admin/blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
 dependencies	../zqxt_admin/blog/migrations/0002_person.py	/^    dependencies = [$/;"	kind:variable	line:10
 deque	../爬虫练习.py	/^from collections import deque$/;"	kind:namespace	line:12
 django	../learn_models/manage.py	/^            import django$/;"	kind:namespace	line:14
+django	../official_tutorial/manage.py	/^            import django$/;"	kind:namespace	line:14
+django	../official_tutorial/polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
 django	../zqxt_admin/manage.py	/^            import django$/;"	kind:namespace	line:14
 django	../zqxt_form2/manage.py	/^            import django$/;"	kind:namespace	line:14
 django	../zqxt_tmpl/manage.py	/^            import django$/;"	kind:namespace	line:14
 django	../zqxt_tmpl2/manage.py	/^            import django$/;"	kind:namespace	line:14
 django	../zqxt_views/manage.py	/^            import django$/;"	kind:namespace	line:14
 execute_from_command_line	../learn_models/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+execute_from_command_line	../official_tutorial/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 execute_from_command_line	../zqxt_admin/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 execute_from_command_line	../zqxt_form2/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 execute_from_command_line	../zqxt_tmpl/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 execute_from_command_line	../zqxt_tmpl2/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 execute_from_command_line	../zqxt_views/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+extra	../official_tutorial/polls/admin.py	/^    extra = 3$/;"	kind:variable	line:9
+field	../official_tutorial/polls/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='polls.Question'),$/;"	kind:variable	line:36
+field	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^            field=models.DateTimeField(verbose_name='发布时间'),$/;"	kind:variable	line:18
 fields	../learn_models/people/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../official_tutorial/polls/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../official_tutorial/polls/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:27
 fields	../zqxt_admin/blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
 fields	../zqxt_admin/blog/migrations/0002_person.py	/^            fields=[$/;"	kind:variable	line:17
+fieldsets	../official_tutorial/polls/admin.py	/^    fieldsets = [$/;"	kind:variable	line:12
 file_name	../爬虫练习.py	/^file_name = 'urls.txt'$/;"	kind:variable	line:17
 first_name	../zqxt_admin/blog/models.py	/^    first_name = models.CharField(max_length=50)$/;"	kind:variable	line:16
 forms	../zqxt_form2/tools/forms.py	/^from django import forms$/;"	kind:namespace	line:1
 forms.py	../zqxt_form2/tools/forms.py	1;"	kind:file	line:1
 full_name	../zqxt_admin/blog/models.py	/^    full_name = property(my_property)$/;"	kind:variable	line:23
+generic	../official_tutorial/polls/views.py	/^from django.views import generic$/;"	kind:namespace	line:6
+get_object_or_404	../official_tutorial/polls/views.py	/^from django.shortcuts import render, get_object_or_404$/;"	kind:namespace	line:1
+get_queryset	../official_tutorial/polls/views.py	/^    def get_queryset(self):$/;"	kind:member	line:17
+get_queryset	../official_tutorial/polls/views.py	/^    def get_queryset(self):$/;"	kind:member	line:26
 get_wsgi_application	../learn_models/learn_models/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+get_wsgi_application	../official_tutorial/official_tutorial/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
 get_wsgi_application	../zqxt_admin/zqxt_admin/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
 get_wsgi_application	../zqxt_form2/zqxt_form2/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
 get_wsgi_application	../zqxt_tmpl/zqxt_tmpl/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
@@ -236,27 +311,44 @@ get_wsgi_application	../zqxt_views/zqxt_views/wsgi.py	/^from django.core.wsgi im
 headers	../爬虫练习.py	/^headers = {'user-agent': 'Mozilla\/5.0 (X11; Linux i686; rv:55.0) Gecko\/20100101 Firefox\/55.0'}$/;"	kind:variable	line:19
 home	../zqxt_tmpl/learn/views.py	/^def home(request):$/;"	kind:function	line:4
 home	../zqxt_tmpl2/app/views.py	/^def home(request):$/;"	kind:function	line:6
+include	../official_tutorial/official_tutorial/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
 index	../zqxt_form2/tools/views.py	/^def index(request):$/;"	kind:function	line:9
 index	../zqxt_views/calc/views.py	/^def index(request):$/;"	kind:function	line:7
 initial	../learn_models/people/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+initial	../official_tutorial/polls/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
 initial	../zqxt_admin/blog/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+inlines	../official_tutorial/polls/admin.py	/^    inlines = [ChoiceInline]$/;"	kind:variable	line:16
 last_name	../zqxt_admin/blog/models.py	/^    last_name = models.CharField(max_length=50)$/;"	kind:variable	line:17
 learn_views	../zqxt_tmpl/zqxt_tmpl/urls.py	/^from learn import views as learn_views$/;"	kind:namespace	line:18
 link	../爬虫练习.py	/^                    link = baseurl + re.match('^\/.*',link).group()$/;"	kind:variable	line:39
 link	../爬虫练习.py	/^        link = link.get('href')$/;"	kind:variable	line:35
+list_display	../official_tutorial/polls/admin.py	/^    list_display = ('question_text', 'pub_date', 'was_published_recently')$/;"	kind:variable	line:17
 list_display	../zqxt_admin/blog/admin.py	/^    list_display = ('full_name',)$/;"	kind:variable	line:17
 list_display	../zqxt_admin/blog/admin.py	/^    list_display = ('title', 'pub_date', 'update_time',)$/;"	kind:variable	line:8
+list_filter	../official_tutorial/polls/admin.py	/^    list_filter = ['pub_date']$/;"	kind:variable	line:18
 manage.py	../learn_models/manage.py	1;"	kind:file	line:1
+manage.py	../official_tutorial/manage.py	1;"	kind:file	line:1
 manage.py	../zqxt_admin/manage.py	1;"	kind:file	line:1
 manage.py	../zqxt_form2/manage.py	1;"	kind:file	line:1
 manage.py	../zqxt_tmpl/manage.py	1;"	kind:file	line:1
 manage.py	../zqxt_tmpl2/manage.py	1;"	kind:file	line:1
 manage.py	../zqxt_views/manage.py	1;"	kind:file	line:1
 migrations	../learn_models/people/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../official_tutorial/polls/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
 migrations	../zqxt_admin/blog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
 migrations	../zqxt_admin/blog/migrations/0002_person.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+model	../official_tutorial/polls/admin.py	/^    model = Choice$/;"	kind:variable	line:8
+model	../official_tutorial/polls/views.py	/^    model = Question$/;"	kind:variable	line:23
+model	../official_tutorial/polls/views.py	/^    model = Question$/;"	kind:variable	line:33
+model_name	../official_tutorial/polls/migrations/0001_initial.py	/^            model_name='choice',$/;"	kind:variable	line:34
+model_name	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^            model_name='question',$/;"	kind:variable	line:16
 models	../learn_models/people/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
 models	../learn_models/people/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../official_tutorial/polls/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../official_tutorial/polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+models	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../official_tutorial/polls/models.py	/^from django.db import models$/;"	kind:namespace	line:1
 models	../zqxt_admin/blog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
 models	../zqxt_admin/blog/migrations/0002_person.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
 models	../zqxt_admin/blog/models.py	/^from django.db import models$/;"	kind:namespace	line:1
@@ -265,6 +357,7 @@ models	../zqxt_tmpl/learn/models.py	/^from django.db import models$/;"	kind:name
 models	../zqxt_tmpl2/app/models.py	/^from django.db import models$/;"	kind:namespace	line:1
 models	../zqxt_views/calc/models.py	/^from django.db import models$/;"	kind:namespace	line:1
 models.py	../learn_models/people/models.py	1;"	kind:file	line:1
+models.py	../official_tutorial/polls/models.py	1;"	kind:file	line:1
 models.py	../zqxt_admin/blog/models.py	1;"	kind:file	line:1
 models.py	../zqxt_form2/tools/models.py	1;"	kind:file	line:1
 models.py	../zqxt_tmpl/learn/models.py	1;"	kind:file	line:1
@@ -274,6 +367,11 @@ my_property	../zqxt_admin/blog/models.py	/^    def my_property(self):$/;"	kind:m
 name	../learn_models/people/apps.py	/^    name = 'people'$/;"	kind:variable	line:5
 name	../learn_models/people/migrations/0001_initial.py	/^            name='Person',$/;"	kind:variable	line:17
 name	../learn_models/people/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:5
+name	../official_tutorial/polls/apps.py	/^    name = 'polls'$/;"	kind:variable	line:5
+name	../official_tutorial/polls/migrations/0001_initial.py	/^            name='Choice',$/;"	kind:variable	line:18
+name	../official_tutorial/polls/migrations/0001_initial.py	/^            name='Question',$/;"	kind:variable	line:26
+name	../official_tutorial/polls/migrations/0001_initial.py	/^            name='question',$/;"	kind:variable	line:35
+name	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^            name='pub_date',$/;"	kind:variable	line:17
 name	../zqxt_admin/blog/apps.py	/^    name = 'blog'$/;"	kind:variable	line:5
 name	../zqxt_admin/blog/migrations/0001_initial.py	/^            name='Article',$/;"	kind:variable	line:17
 name	../zqxt_admin/blog/migrations/0002_person.py	/^            name='Person',$/;"	kind:variable	line:16
@@ -282,11 +380,16 @@ name	../zqxt_tmpl/learn/apps.py	/^    name = 'learn'$/;"	kind:variable	line:5
 name	../zqxt_tmpl2/app/apps.py	/^    name = 'app'$/;"	kind:variable	line:5
 name	../zqxt_views/calc/apps.py	/^    name = 'calc'$/;"	kind:variable	line:5
 operations	../learn_models/people/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../official_tutorial/polls/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^    operations = [$/;"	kind:variable	line:14
 operations	../zqxt_admin/blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
 operations	../zqxt_admin/blog/migrations/0002_person.py	/^    operations = [$/;"	kind:variable	line:14
 os	../learn_models/learn_models/settings.py	/^import os$/;"	kind:namespace	line:13
 os	../learn_models/learn_models/wsgi.py	/^import os$/;"	kind:namespace	line:10
 os	../learn_models/manage.py	/^import os$/;"	kind:namespace	line:2
+os	../official_tutorial/manage.py	/^import os$/;"	kind:namespace	line:2
+os	../official_tutorial/official_tutorial/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../official_tutorial/official_tutorial/wsgi.py	/^import os$/;"	kind:namespace	line:10
 os	../zqxt_admin/manage.py	/^import os$/;"	kind:namespace	line:2
 os	../zqxt_admin/zqxt_admin/settings.py	/^import os$/;"	kind:namespace	line:13
 os	../zqxt_admin/zqxt_admin/wsgi.py	/^import os$/;"	kind:namespace	line:10
@@ -302,45 +405,73 @@ os	../zqxt_tmpl2/zqxt_tmpl2/wsgi.py	/^import os$/;"	kind:namespace	line:10
 os	../zqxt_views/manage.py	/^import os$/;"	kind:namespace	line:2
 os	../zqxt_views/zqxt_views/settings.py	/^import os$/;"	kind:namespace	line:13
 os	../zqxt_views/zqxt_views/wsgi.py	/^import os$/;"	kind:namespace	line:10
+pub_date	../official_tutorial/polls/models.py	/^    pub_date = models.DateTimeField('发布时间')$/;"	kind:variable	line:10
 pub_date	../zqxt_admin/blog/models.py	/^    pub_date = models.DateField('发布时间', auto_now_add=True, editable=True)$/;"	kind:variable	line:8
+question	../official_tutorial/polls/models.py	/^    question = models.ForeignKey(Question, on_delete=models.CASCADE)$/;"	kind:variable	line:27
+question_text	../official_tutorial/polls/models.py	/^    question_text = models.CharField("问题", max_length=200)$/;"	kind:variable	line:9
 queue	../爬虫练习.py	/^queue = deque()    # 队列，记录待抓取页面$/;"	kind:variable	line:15
 re	../爬虫练习.py	/^import re$/;"	kind:namespace	line:9
 render	../learn_models/people/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+render	../official_tutorial/polls/views.py	/^from django.shortcuts import render, get_object_or_404$/;"	kind:namespace	line:1
 render	../zqxt_admin/blog/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
 render	../zqxt_form2/tools/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
 render	../zqxt_tmpl/learn/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
 render	../zqxt_tmpl2/app/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
 render	../zqxt_views/calc/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
 requests	../爬虫练习.py	/^import requests$/;"	kind:namespace	line:7
+reverse	../official_tutorial/polls/tests.py	/^from django.urls import reverse$/;"	kind:namespace	line:6
+reverse	../official_tutorial/polls/views.py	/^from django.urls import reverse$/;"	kind:namespace	line:5
 rq	../爬虫练习.py	/^    rq = requests.get(url, headers = headers)$/;"	kind:variable	line:29
 save_model	../zqxt_admin/blog/admin.py	/^    def save_model(self, request, obj, form, change):$/;"	kind:member	line:11
+search_fields	../official_tutorial/polls/admin.py	/^    search_fields = ['question_text']$/;"	kind:variable	line:19
 search_fields	../zqxt_admin/blog/admin.py	/^    search_fields = ('title', 'counter',)$/;"	kind:variable	line:9
 settings.py	../learn_models/learn_models/settings.py	1;"	kind:file	line:1
+settings.py	../official_tutorial/official_tutorial/settings.py	1;"	kind:file	line:1
 settings.py	../zqxt_admin/zqxt_admin/settings.py	1;"	kind:file	line:1
 settings.py	../zqxt_form2/zqxt_form2/settings.py	1;"	kind:file	line:1
 settings.py	../zqxt_tmpl/zqxt_tmpl/settings.py	1;"	kind:file	line:1
 settings.py	../zqxt_tmpl2/zqxt_tmpl2/settings.py	1;"	kind:file	line:1
 settings.py	../zqxt_views/zqxt_views/settings.py	1;"	kind:file	line:1
 sys	../learn_models/manage.py	/^import sys$/;"	kind:namespace	line:3
+sys	../official_tutorial/manage.py	/^import sys$/;"	kind:namespace	line:3
 sys	../zqxt_admin/manage.py	/^import sys$/;"	kind:namespace	line:3
 sys	../zqxt_form2/manage.py	/^import sys$/;"	kind:namespace	line:3
 sys	../zqxt_tmpl/manage.py	/^import sys$/;"	kind:namespace	line:3
 sys	../zqxt_tmpl2/manage.py	/^import sys$/;"	kind:namespace	line:3
 sys	../zqxt_views/manage.py	/^import sys$/;"	kind:namespace	line:3
+template_name	../official_tutorial/polls/views.py	/^    template_name = 'polls\/detail.html'$/;"	kind:variable	line:24
+template_name	../official_tutorial/polls/views.py	/^    template_name = 'polls\/index.html'$/;"	kind:variable	line:14
+template_name	../official_tutorial/polls/views.py	/^    template_name = 'polls\/results.html'$/;"	kind:variable	line:34
+test_future_question	../official_tutorial/polls/tests.py	/^    def test_future_question(self):$/;"	kind:member	line:52
+test_future_question	../official_tutorial/polls/tests.py	/^    def test_future_question(self):$/;"	kind:member	line:87
+test_future_question_and_past_question	../official_tutorial/polls/tests.py	/^    def test_future_question_and_past_question(self):$/;"	kind:member	line:61
+test_no_question	../official_tutorial/polls/tests.py	/^    def test_no_question(self):$/;"	kind:member	line:32
+test_past_question	../official_tutorial/polls/tests.py	/^    def test_past_question(self):$/;"	kind:member	line:41
+test_past_question	../official_tutorial/polls/tests.py	/^    def test_past_question(self):$/;"	kind:member	line:96
+test_two_past_question	../official_tutorial/polls/tests.py	/^    def test_two_past_question(self):$/;"	kind:member	line:73
+test_was_published_recently_with_future_qusetion	../official_tutorial/polls/tests.py	/^    def test_was_published_recently_with_future_qusetion(self):$/;"	kind:member	line:14
 tests.py	../learn_models/people/tests.py	1;"	kind:file	line:1
+tests.py	../official_tutorial/polls/tests.py	1;"	kind:file	line:1
 tests.py	../zqxt_admin/blog/tests.py	1;"	kind:file	line:1
 tests.py	../zqxt_form2/tools/tests.py	1;"	kind:file	line:1
 tests.py	../zqxt_tmpl/learn/tests.py	1;"	kind:file	line:1
 tests.py	../zqxt_tmpl2/app/tests.py	1;"	kind:file	line:1
 tests.py	../zqxt_views/calc/tests.py	1;"	kind:file	line:1
 time	../爬虫练习.py	/^import time$/;"	kind:namespace	line:8
+timezone	../official_tutorial/polls/models.py	/^from django.utils import timezone$/;"	kind:namespace	line:5
+timezone	../official_tutorial/polls/tests.py	/^from django.utils import timezone$/;"	kind:namespace	line:7
+timezone	../official_tutorial/polls/views.py	/^from django.utils import timezone$/;"	kind:namespace	line:7
 title	../zqxt_admin/blog/models.py	/^    title = models.CharField('标题', max_length=256)$/;"	kind:variable	line:5
 tools_views	../zqxt_form2/zqxt_form2/urls.py	/^from tools import views as tools_views$/;"	kind:namespace	line:18
 unicode_literals	../learn_models/people/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../official_tutorial/polls/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../official_tutorial/polls/migrations/0002_auto_20171115_1108.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
 unicode_literals	../zqxt_admin/blog/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
 unicode_literals	../zqxt_admin/blog/migrations/0002_person.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
 update_time	../zqxt_admin/blog/models.py	/^    update_time = models.DateField('更新时间', auto_now=True, null=True)$/;"	kind:variable	line:9
 url	../learn_models/learn_models/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+url	../official_tutorial/official_tutorial/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
+url	../official_tutorial/polls/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
 url	../zqxt_admin/zqxt_admin/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
 url	../zqxt_form2/zqxt_form2/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
 url	../zqxt_tmpl/zqxt_tmpl/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
@@ -348,25 +479,38 @@ url	../zqxt_tmpl2/zqxt_tmpl2/urls.py	/^from django.conf.urls import url$/;"	kind
 url	../zqxt_views/zqxt_views/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
 url	../爬虫练习.py	/^    url = queue.popleft() # 取出对首元素$/;"	kind:variable	line:25
 urlpatterns	../learn_models/learn_models/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../official_tutorial/official_tutorial/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../official_tutorial/polls/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
 urlpatterns	../zqxt_admin/zqxt_admin/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
 urlpatterns	../zqxt_form2/zqxt_form2/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
 urlpatterns	../zqxt_tmpl/zqxt_tmpl/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
 urlpatterns	../zqxt_tmpl2/zqxt_tmpl2/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
 urlpatterns	../zqxt_views/zqxt_views/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
 urls.py	../learn_models/learn_models/urls.py	1;"	kind:file	line:1
+urls.py	../official_tutorial/official_tutorial/urls.py	1;"	kind:file	line:1
+urls.py	../official_tutorial/polls/urls.py	1;"	kind:file	line:1
 urls.py	../zqxt_admin/zqxt_admin/urls.py	1;"	kind:file	line:1
 urls.py	../zqxt_form2/zqxt_form2/urls.py	1;"	kind:file	line:1
 urls.py	../zqxt_tmpl/zqxt_tmpl/urls.py	1;"	kind:file	line:1
 urls.py	../zqxt_tmpl2/zqxt_tmpl2/urls.py	1;"	kind:file	line:1
 urls.py	../zqxt_views/zqxt_views/urls.py	1;"	kind:file	line:1
+verbose_name	../official_tutorial/polls/apps.py	/^    verbose_name = '投票系统'$/;"	kind:variable	line:6
+verbose_name	../official_tutorial/polls/models.py	/^        verbose_name = '问卷'$/;"	kind:variable	line:23
+verbose_name_plural	../official_tutorial/polls/models.py	/^        verbose_name_plural = '问卷（复数形式)'$/;"	kind:variable	line:24
+views	../official_tutorial/polls/urls.py	/^from . import views$/;"	kind:namespace	line:2
 views.py	../learn_models/people/views.py	1;"	kind:file	line:1
+views.py	../official_tutorial/polls/views.py	1;"	kind:file	line:1
 views.py	../zqxt_admin/blog/views.py	1;"	kind:file	line:1
 views.py	../zqxt_form2/tools/views.py	1;"	kind:file	line:1
 views.py	../zqxt_tmpl/learn/views.py	1;"	kind:file	line:1
 views.py	../zqxt_tmpl2/app/views.py	1;"	kind:file	line:1
 views.py	../zqxt_views/calc/views.py	1;"	kind:file	line:1
 visited	../爬虫练习.py	/^visited = set()    # 集合，用于记录已抓取页面$/;"	kind:variable	line:16
+vote	../official_tutorial/polls/views.py	/^def vote(request,question_id):$/;"	kind:function	line:36
+votes	../official_tutorial/polls/models.py	/^    votes = models.IntegerField('得票数', default=0)$/;"	kind:variable	line:29
+was_published_recently	../official_tutorial/polls/models.py	/^    def was_published_recently(self):$/;"	kind:member	line:15
 wsgi.py	../learn_models/learn_models/wsgi.py	1;"	kind:file	line:1
+wsgi.py	../official_tutorial/official_tutorial/wsgi.py	1;"	kind:file	line:1
 wsgi.py	../zqxt_admin/zqxt_admin/wsgi.py	1;"	kind:file	line:1
 wsgi.py	../zqxt_form2/zqxt_form2/wsgi.py	1;"	kind:file	line:1
 wsgi.py	../zqxt_tmpl/zqxt_tmpl/wsgi.py	1;"	kind:file	line:1
